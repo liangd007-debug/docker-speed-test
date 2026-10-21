@@ -1,0 +1,10 @@
+# 统一换行，防止 Windows checkout 污染仓库内容
+* text=auto
+
+*.go text
+*.cs text
+*.md text
+*.txt text
+
+*.exe binary
+*.zip binary
